@@ -39,33 +39,7 @@ export default function Hero() {
             </div>
 
             {/* Liens réseaux sociaux */}
-            <div className="mt-12 flex items-center justify-center gap-6 text-gray-400">
-                <a
-                    href="https://github.com/DanyLac"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex flex-col items-center gap-1 hover:text-white transition-colors"
-                >
-                    <FaGithub className="text-2xl" />
-                    <span className="text-xs">GitHub</span>
-                </a>
-                <a
-                    href="https://www.linkedin.com/in/dany-lachapelle-064468385"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex flex-col items-center gap-1 hover:text-white transition-colors"
-                >
-                    <FaLinkedin className="text-2xl" />
-                    <span className="text-xs">LinkedIn</span>
-                </a>
-                <a
-                    href="mailto:danylac29@gmail.com"
-                    className="flex flex-col items-center gap-1 hover:text-white transition-colors"
-                >
-                    <HiOutlineMail className="text-2xl" />
-                    <span className="text-xs">Email</span>
-                </a>
-            </div>
+
 
         </section>
     );
